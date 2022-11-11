@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.generatorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 15px 3px rgb(191, 190, 190);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.heading{
+    margin-top: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+
+
+.inputEle{
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.generate-btn{
+    display: block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(174, 214, 249);
+    justify-content: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.input-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Img{
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 25px;
+    margin-top: 15px;
+}
+
+.img-container{
+    margin-bottom: 30px;
+}
+
+.pg{
+    font-weight: bold;
+    color: red;
+}
+
